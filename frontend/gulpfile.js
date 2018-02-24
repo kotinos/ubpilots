@@ -12,7 +12,7 @@ var config = {
     username: remoteConn.ssh_user,
     privateKey: fs.readFileSync('key','utf8')
 };
-
+//Jay
 var gulpSSH = new GulpSSH({
     ignoreErrors: false,
     sshConfig: config
