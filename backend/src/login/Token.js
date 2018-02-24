@@ -14,7 +14,7 @@ export default class Token {
 
     /**
      * @param userName must be defined with valid string
-     * @param password must be defined with valid string  
+     * @param password must be defined with valid string
      * @returns {Promise} that resolves with token string if userName and Password are valid
      */
     getToken(userName,password) {
